@@ -24,15 +24,17 @@
     <div ng-controller="ListCtrl" class="container-list">
         <div class="header">
             <!--Sidebar content-->
-            <div id="searchTitle">Search:</div><input id="search" ng-model="query" />
+            <p >Master Detail</p>
         </div>
         <div class="container">
             <div ng-view></div>
             <div class="main-list">
+                <button ng-click="go('/home/')"><span>Home</span></button>
                 <button ng-repeat="item in data | filter:query | orderBy:orderProp" ng-click="go('/data/'+item.id)">
                         <span>{{item.name}}</span>
                 </button>
             </div>
+           
         </div>
     </div>
 

@@ -82,7 +82,8 @@
     "www\\scripts\\vhsupport.js",
     "www\\scripts\\frameworks\\angular-resource.min.js",
     "www\\scripts\\frameworks\\angular.min.js",
-    "www\\scripts\\frameworks\\angular-route.min.js"
+    "www\\scripts\\frameworks\\angular-route.min.js",
+    "www\\partials\\home.html"
   ],
   "deletedFilesIos": [
     "www\\css\\xl5yfyqe.fa5~"
@@ -90,7 +91,7 @@
   "addedPluginsIos": [],
   "deletedPluginsIos": [],
   "changedFiles": [
-    "www\\scripts\\controllers.js"
+    "www\\data\\data.json"
   ],
   "deletedFiles": [],
   "addedPlugins": [],

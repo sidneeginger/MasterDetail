@@ -15,10 +15,11 @@ body {
 
 .header {
     background-color: antiquewhite;
-    margin-bottom: 5px;
-    margin-bottom: 1vh;
-    height: 9vh;
+    margin-bottom: 0px;
+    margin-bottom: 0vh;
+    height: 4vh;
     width: 100vw;
+    text-align:center;
 }
 
 .container {
@@ -59,15 +60,15 @@ body {
     flex-direction: column;
     -ms-flex-align: stretch;
     -webkit-box-align: stretch;
-    width: 25vw;
-    height: 90vh;
+    width: 100vw;
+    height: 8vh;
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
 
 .main-list > button {
-    background-color: lavender;
+    background-color: chocolate;
     display: -ms-flexbox;
     display: -webkit-box;
     -ms-flex-align: center;
@@ -76,19 +77,19 @@ body {
     -webkit-box-pack:start;
     width: 24vw;
     min-width: 85px;
-    height: 6vh;
+    height: 8vh;
     min-height: 30px;
-    margin: 4px;
-    margin-left: 6px;
+    margin: 0px;
+    margin-left: 0px;
     padding: 0px;
-    padding-left: 10px;
+    padding-left: 0px;
     text-align: left;
     border-radius: 5px;
 }
 
 .main-list > button > span {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: large;
+    font-size: medium;
 }
 
 #searchTitle {
@@ -143,12 +144,9 @@ h3, ul.info > li, p {
         flex-direction: column;
     }
     .right-pane {
-        margin-left: 0;
-        margin-top: 5px;
-        margin-top: 2vh;
-        padding-left: 1vw;
+    
         width: 100vw;
-        height: 73vh;
+        height: 85vh;
     }
     .main-list {
         -webkit-box-orient: horizontal;
@@ -157,7 +155,7 @@ h3, ul.info > li, p {
         -ms-flex-align: stretch;
         -webkit-box-align: stretch;
         width: 100vw;
-        height: 15vh;
+        height: 8vh;
         min-height: 100px;
         overflow-x: auto;
         overflow-y: hidden;
@@ -169,11 +167,11 @@ h3, ul.info > li, p {
         -ms-flex-pack: center;
         -webkit-box-pack: center;
         height: inherit;
-        min-height: 65px;
-        width: 20vw;
+        min-height: 30px;
+        width: 25vw;
         min-width: 65px;
         text-align: center;
-        margin-left: 4px;
+        margin-left: 0px;
         padding: 0px;
         padding-left: 0px;
     }
@@ -212,52 +210,4 @@ h3, ul.info > li, p {
         min-width: 120px;
         min-height: 120px;
     }
-}
-
-@keyframes enterPage {
-    from {
-        transform: translateY(-100px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0px);
-        opacity: 1;
-    }
-
-}
-
-@-webkit-keyframes enterPage {
-    from {
-        -webkit-transform: translateY(-100px);
-        opacity: 0;
-    }
-    to {
-        -webkit-transform: translateY(0px);
-        opacity: 1;
-    }
-
-}
-
-@keyframes enterContent {
-    from {
-        transform: translateY(300px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0px);
-        opacity: 1;
-    }
-
-}
-
-@-webkit-keyframes enterContent {
-    from {
-        -webkit-transform: translateY(300px);
-        opacity: 0;
-    }
-    to {
-        -webkit-transform: translateY(0px);
-        opacity: 1;
-    }
-
 }

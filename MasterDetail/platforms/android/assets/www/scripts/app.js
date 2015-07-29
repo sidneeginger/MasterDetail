@@ -23,6 +23,10 @@
                 templateUrl: 'partials/details.html',
                 controller: 'DetailCtrl'
             }).
+            when('/home', {
+                templateUrl: 'partials/home.html',
+                controller: 'DetailCtrl'
+            }).
             otherwise({
                 redirectTo: '/data'
             });
