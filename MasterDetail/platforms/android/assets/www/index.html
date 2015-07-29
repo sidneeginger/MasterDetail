@@ -29,10 +29,10 @@
         <div class="container">
             <div ng-view></div>
             <div class="main-list">
-                <button ng-click="go('/home/')"><span>Home</span></button>
-                <button ng-repeat="item in data | filter:query | orderBy:orderProp" ng-click="go('/data/'+item.id)">
-                        <span>{{item.name}}</span>
-                </button>
+                <button ng-click="go('/realtime/')"><span>时实</span></button>
+                <button ng-click="go('/message/')"><span>消息</span></button>
+                <button ng-click="go('/history/')"><span>历史</span></button>
+                <button ng-click="go('/setting/')"><span>设置</span></button>
             </div>
            
         </div>

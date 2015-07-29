@@ -19,16 +19,24 @@
     angularApp.config(['$routeProvider',
       function ($routeProvider) {
           $routeProvider.
-            when('/data/:itemId', {
-                templateUrl: 'partials/details.html',
+            when('/realtime', {
+                templateUrl: 'partials/realtimedata.html',
                 controller: 'DetailCtrl'
             }).
-            when('/home', {
-                templateUrl: 'partials/home.html',
+            when('/message', {
+                templateUrl: 'partials/message.html',
                 controller: 'DetailCtrl'
             }).
+             when('/history', {
+                 templateUrl: 'partials/history.html',
+                 controller: 'DetailCtrl'
+             }).
+             when('/setting', {
+                 templateUrl: 'partials/setting.html',
+                 controller: 'DetailCtrl'
+             }).
             otherwise({
-                redirectTo: '/data'
+                redirectTo: '/realtime'
             });
       }]);
 })();
