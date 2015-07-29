@@ -4,9 +4,7 @@
 
     angularControllers.controller('ListCtrl', ['$scope', '$http', '$location', '$route',
       function ($scope, $http, $location, $route) {
-          $http.get('data/data.json').success(function (data) {
-              $scope.data = data;
-          });
+       
 
           $scope.orderProp = 'model';
 
@@ -15,14 +13,12 @@
               $location.path(route);
           }
 
-          $scope.go('/data/item1');
+          $scope.go('/realtime');
 
       }]);
 
     angularControllers.controller('DetailCtrl', ['$scope', '$routeParams', '$http',
       function ($scope, $routeParams, $http) {
-          $http.get('data/' + $routeParams.itemId + '.json').success(function (data) {
-              $scope.item = data;
-          });
+        
       }]);
 })();

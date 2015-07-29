@@ -20,7 +20,7 @@
       function ($routeProvider) {
           $routeProvider.
             when('/realtime', {
-                templateUrl: 'partials/realtimedata.html',
+                templateUrl: 'partials/realtimeData.html',
                 controller: 'DetailCtrl'
             }).
             when('/message', {
