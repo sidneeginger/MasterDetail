@@ -15,6 +15,8 @@
               $location.path(route);
           }
 
+          $scope.go('/data/item1');
+
       }]);
 
     angularControllers.controller('DetailCtrl', ['$scope', '$routeParams', '$http',

@@ -84,11 +84,13 @@
     "www\\scripts\\frameworks\\angular.min.js",
     "www\\scripts\\frameworks\\angular-route.min.js"
   ],
-  "deletedFilesIos": [],
+  "deletedFilesIos": [
+    "www\\css\\xl5yfyqe.fa5~"
+  ],
   "addedPluginsIos": [],
   "deletedPluginsIos": [],
   "changedFiles": [
-    "www\\data\\data.json"
+    "www\\scripts\\controllers.js"
   ],
   "deletedFiles": [],
   "addedPlugins": [],
